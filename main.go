@@ -1,6 +1,7 @@
 package main
 
 import (
+	s_u "github.com/BigMasonFang/study_go/string_rune"
 	t "github.com/BigMasonFang/study_go/type"
 
 	"github.com/davecgh/go-spew/spew"
@@ -15,4 +16,5 @@ func main() {
 	spew.Println(array1.Values())
 	spew.Dump(array1.Values()...)
 	t.PrintType()
+	s_u.PrintStringRune()
 }
