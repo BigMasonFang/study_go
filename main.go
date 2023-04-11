@@ -8,11 +8,20 @@ import (
 	// f "github.com/BigMasonFang/study_go/funcs"
 	// o "github.com/BigMasonFang/study_go/operator"
 	// logic "github.com/BigMasonFang/study_go/if_else_switch"
-	loop "github.com/BigMasonFang/study_go/for_loop"
+	// loop "github.com/BigMasonFang/study_go/for_loop"
+	"fmt"
+
+	innerInit "github.com/BigMasonFang/study_go/init"
 
 	// web import
 	arraylist "github.com/emirpasic/gods/lists/arraylist" // alias + import
 )
+
+func init() {
+	// initialization before main
+	MAIN_ENV := "DEV"
+	fmt.Println("initialization in env ", MAIN_ENV)
+}
 
 func main() {
 	// mod and package
@@ -42,5 +51,8 @@ func main() {
 	// logic.PrintLogicControl()
 
 	// loop
-	loop.PrintLoop()
+	// loop.PrintLoop()
+
+	// init
+	fmt.Println(innerInit.Init_var)
 }
