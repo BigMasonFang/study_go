@@ -5,7 +5,8 @@ import (
 	// t "github.com/BigMasonFang/study_go/type"
 	// v "github.com/BigMasonFang/study_go/variables"
 	// s "github.com/BigMasonFang/study_go/string_rune"
-	f "github.com/BigMasonFang/study_go/funcs"
+	// f "github.com/BigMasonFang/study_go/funcs"
+	o "github.com/BigMasonFang/study_go/operator"
 
 	// web import
 	arraylist "github.com/emirpasic/gods/lists/arraylist" // alias + import
@@ -30,6 +31,9 @@ func main() {
 	// v.PrintResult()
 
 	// funcs
-	f.PrintResult()
+	// f.PrintResult()
+
+	// operators
+	o.PrintOperator()
 
 }
