@@ -2,8 +2,10 @@ package main
 
 import (
 	// inner import
-
-	v "github.com/BigMasonFang/study_go/variables"
+	// t "github.com/BigMasonFang/study_go/type"
+	// v "github.com/BigMasonFang/study_go/variables"
+	// s "github.com/BigMasonFang/study_go/string_rune"
+	f "github.com/BigMasonFang/study_go/funcs"
 
 	// web import
 	arraylist "github.com/emirpasic/gods/lists/arraylist" // alias + import
@@ -19,9 +21,15 @@ func main() {
 
 	// type
 	// t.PrintType()
+
 	// string&rune
 	// s_u.PrintStringRune()
+
 	// variables
 	// v.PrintVars()
-	v.PrintResult()
+	// v.PrintResult()
+
+	// funcs
+	f.PrintResult()
+
 }
