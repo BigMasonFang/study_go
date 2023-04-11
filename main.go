@@ -7,7 +7,8 @@ import (
 	// s "github.com/BigMasonFang/study_go/string_rune"
 	// f "github.com/BigMasonFang/study_go/funcs"
 	// o "github.com/BigMasonFang/study_go/operator"
-	logic "github.com/BigMasonFang/study_go/if_else_switch"
+	// logic "github.com/BigMasonFang/study_go/if_else_switch"
+	loop "github.com/BigMasonFang/study_go/for_loop"
 
 	// web import
 	arraylist "github.com/emirpasic/gods/lists/arraylist" // alias + import
@@ -38,5 +39,8 @@ func main() {
 	// o.PrintOperator()
 
 	// if else swith
-	logic.PrintLogicControl()
+	// logic.PrintLogicControl()
+
+	// loop
+	loop.PrintLoop()
 }
