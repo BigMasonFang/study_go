@@ -1,6 +1,8 @@
 package main
 
 import (
+	t "github.com/BigMasonFang/study_go/type"
+
 	"github.com/davecgh/go-spew/spew"
 	arraylist "github.com/emirpasic/gods/lists/arraylist" // alias + import
 )
@@ -12,4 +14,5 @@ func main() {
 	// fmt.Printf("array1: %v\n", array1)
 	spew.Println(array1.Values())
 	spew.Dump(array1.Values()...)
+	t.PrintType()
 }
