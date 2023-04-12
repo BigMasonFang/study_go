@@ -9,9 +9,10 @@ import (
 	// o "github.com/BigMasonFang/study_go/operator"
 	// logic "github.com/BigMasonFang/study_go/if_else_switch"
 	// loop "github.com/BigMasonFang/study_go/for_loop"
-	"fmt"
+	// innerInit "github.com/BigMasonFang/study_go/init"
+	method "github.com/BigMasonFang/study_go/method"
 
-	innerInit "github.com/BigMasonFang/study_go/init"
+	"fmt"
 
 	// web import
 	arraylist "github.com/emirpasic/gods/lists/arraylist" // alias + import
@@ -54,5 +55,8 @@ func main() {
 	// loop.PrintLoop()
 
 	// init
-	fmt.Println(innerInit.Init_var)
+	// fmt.Println(innerInit.Init_var)
+
+	// method
+	method.PrintMethod()
 }
