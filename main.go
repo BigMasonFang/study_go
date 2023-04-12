@@ -10,7 +10,8 @@ import (
 	// logic "github.com/BigMasonFang/study_go/if_else_switch"
 	// loop "github.com/BigMasonFang/study_go/for_loop"
 	// innerInit "github.com/BigMasonFang/study_go/init"
-	method "github.com/BigMasonFang/study_go/method"
+	// method "github.com/BigMasonFang/study_go/method"
+	_struct "github.com/BigMasonFang/study_go/struct"
 
 	"fmt"
 
@@ -58,5 +59,8 @@ func main() {
 	// fmt.Println(innerInit.Init_var)
 
 	// method
-	method.PrintMethod()
+	// method.PrintMethod()
+
+	// struct
+	_struct.PrintStruct()
 }
