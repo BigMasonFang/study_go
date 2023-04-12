@@ -11,7 +11,8 @@ import (
 	// loop "github.com/BigMasonFang/study_go/for_loop"
 	// innerInit "github.com/BigMasonFang/study_go/init"
 	// method "github.com/BigMasonFang/study_go/method"
-	_struct "github.com/BigMasonFang/study_go/struct"
+	// _struct "github.com/BigMasonFang/study_go/struct"
+	array "github.com/BigMasonFang/study_go/array"
 
 	"fmt"
 
@@ -62,5 +63,8 @@ func main() {
 	// method.PrintMethod()
 
 	// struct
-	_struct.PrintStruct()
+	// _struct.PrintStruct()
+
+	// array
+	array.PrintArray()
 }
