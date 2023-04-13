@@ -12,7 +12,8 @@ import (
 	// innerInit "github.com/BigMasonFang/study_go/init"
 	// method "github.com/BigMasonFang/study_go/method"
 	// _struct "github.com/BigMasonFang/study_go/struct"
-	array "github.com/BigMasonFang/study_go/array"
+	// array "github.com/BigMasonFang/study_go/array"
+	s "github.com/BigMasonFang/study_go/slice"
 
 	"fmt"
 
@@ -66,5 +67,8 @@ func main() {
 	// _struct.PrintStruct()
 
 	// array
-	array.PrintArray()
+	// array.PrintArray()
+
+	// slice
+	s.PrintSlice()
 }

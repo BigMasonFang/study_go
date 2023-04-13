@@ -1,4 +1,4 @@
-package study_go
+package for_loop
 
 import "fmt"
 

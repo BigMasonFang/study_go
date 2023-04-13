@@ -1,4 +1,4 @@
-package study_go
+package string_rune
 
 import "github.com/davecgh/go-spew/spew"
 

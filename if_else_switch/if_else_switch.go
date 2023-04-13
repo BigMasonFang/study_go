@@ -1,4 +1,4 @@
-package study_go
+package if_else_switch
 
 import (
 	"fmt"

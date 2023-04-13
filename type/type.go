@@ -1,4 +1,4 @@
-package study_go
+package Type
 
 import (
 	"github.com/davecgh/go-spew/spew"

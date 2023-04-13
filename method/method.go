@@ -1,4 +1,4 @@
-package study_go
+package method
 
 import "fmt"
 
