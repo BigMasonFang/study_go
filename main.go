@@ -13,7 +13,8 @@ import (
 	// method "github.com/BigMasonFang/study_go/method"
 	// _struct "github.com/BigMasonFang/study_go/struct"
 	// array "github.com/BigMasonFang/study_go/array"
-	s "github.com/BigMasonFang/study_go/slice"
+	// s "github.com/BigMasonFang/study_go/slice"
+	m "github.com/BigMasonFang/study_go/map"
 
 	"fmt"
 
@@ -70,5 +71,8 @@ func main() {
 	// array.PrintArray()
 
 	// slice
-	s.PrintSlice()
+	// s.PrintSlice()
+
+	// map
+	m.PrintMap()
 }
