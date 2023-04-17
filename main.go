@@ -14,7 +14,8 @@ import (
 	// _struct "github.com/BigMasonFang/study_go/struct"
 	// array "github.com/BigMasonFang/study_go/array"
 	// s "github.com/BigMasonFang/study_go/slice"
-	m "github.com/BigMasonFang/study_go/map"
+	// m "github.com/BigMasonFang/study_go/map"
+	i "github.com/BigMasonFang/study_go/interface"
 
 	"fmt"
 
@@ -74,5 +75,8 @@ func main() {
 	// s.PrintSlice()
 
 	// map
-	m.PrintMap()
+	// m.PrintMap()
+
+	// interface
+	i.PrintInterface()
 }
