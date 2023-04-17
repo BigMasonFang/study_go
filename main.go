@@ -15,7 +15,9 @@ import (
 	// array "github.com/BigMasonFang/study_go/array"
 	// s "github.com/BigMasonFang/study_go/slice"
 	// m "github.com/BigMasonFang/study_go/map"
-	i "github.com/BigMasonFang/study_go/interface"
+	// i "github.com/BigMasonFang/study_go/interface"
+
+	routine "github.com/BigMasonFang/study_go/goroutine"
 
 	"fmt"
 
@@ -78,5 +80,8 @@ func main() {
 	// m.PrintMap()
 
 	// interface
-	i.PrintInterface()
+	// i.PrintInterface()
+
+	// routine
+	routine.PrintChannelWrite()
 }
