@@ -83,5 +83,7 @@ func main() {
 	// i.PrintInterface()
 
 	// routine
-	routine.PrintChannelWrite()
+	// routine.PrintChannelWrite()
+	// routine.PrintConcurrentCalSum()
+	routine.PrintErrorMsg()
 }
