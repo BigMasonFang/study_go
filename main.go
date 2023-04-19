@@ -85,5 +85,9 @@ func main() {
 	// routine
 	// routine.PrintChannelWrite()
 	// routine.PrintConcurrentCalSum()
-	routine.PrintErrorMsg()
+	// routine.PrintErrorMsg()
+	// routine.PrintCounter()
+	// routine.PrintOrderPrint()
+	// routine.PrintAtomic()
+	routine.PrintGen()
 }
