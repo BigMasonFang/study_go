@@ -12,12 +12,12 @@ func receive(sendChannel <-chan int, outputChannel chan int, wg *sync.WaitGroup)
 	}
 }
 
-func merge(sendChannel ...<-chan int) <-chan int {
+func merge(sendChannels ...<-chan int) <-chan int {
 	var wg sync.WaitGroup
 	out := make(chan int)
 
-	wg.Add(len(sendChannel))
-	for _, c := range sendChannel {
+	wg.Add(len(sendChannels))
+	for _, c := range sendChannels {
 		go receive(c, out, &wg)
 	}
 

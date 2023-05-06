@@ -91,5 +91,6 @@ func main() {
 	// routine.PrintAtomic()
 	// routine.PrintGen()
 	// routine.PrintPipeline()
-	routine.PrintFanin()
+	// routine.PrintFanin()
+	routine.PrintClose()
 }
