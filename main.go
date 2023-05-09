@@ -16,8 +16,10 @@ import (
 	// s "github.com/BigMasonFang/study_go/slice"
 	// m "github.com/BigMasonFang/study_go/map"
 	// i "github.com/BigMasonFang/study_go/interface"
-
-	routine "github.com/BigMasonFang/study_go/goroutine"
+	// e "github.com/BigMasonFang/study_go/error"
+	// g "github.com/BigMasonFang/study_go/generics"
+	// routine "github.com/BigMasonFang/study_go/goroutine"
+	r "github.com/BigMasonFang/study_go/reflection"
 
 	"fmt"
 
@@ -92,5 +94,14 @@ func main() {
 	// routine.PrintGen()
 	// routine.PrintPipeline()
 	// routine.PrintFanin()
-	routine.PrintClose()
+	// routine.PrintClose()
+
+	// error
+	// e.PrintErrorAs()
+
+	// generics
+	// g.PrintGenric()
+
+	// reflect
+	r.PrintReflect()
 }
