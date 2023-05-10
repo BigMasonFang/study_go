@@ -7,7 +7,7 @@ import (
 
 func init() {
 	designPatterns := []string{
-		"singleton",
+		"singleton", "simple_factory", "abstract_factory",
 	}
 	fmt.Println("u can select from these patterns")
 	for i, v := range designPatterns {
@@ -22,5 +22,9 @@ func PrintDesignPatterns() {
 	switch input {
 	case "0", "singleton":
 		creational_patterns.PrintSingleton()
+	case "1", "simple_factory":
+		creational_patterns.PrintSimpleFactory()
+	case "2", "abstract_factory":
+		creational_patterns.PrintAbstractFactory()
 	}
 }
