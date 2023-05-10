@@ -15,7 +15,7 @@ import (
 	// array "study_go/basic/array"
 	// s "study_go/basic/slice"
 	// m "study_go/basic/map"
-	// i "study_go/basic/interface"
+	i "study_go/basic/interface"
 	// e "study_go/basic/error"
 	// g "study_go/basic/generics"
 	// routine "study_go/basic/goroutine"
@@ -86,7 +86,7 @@ func main() {
 	// m.PrintMap()
 
 	// interface
-	// i.PrintInterface()
+	i.PrintInterface()
 
 	// routine
 	// routine.PrintChannelWrite()

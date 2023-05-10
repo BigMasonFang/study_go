@@ -40,6 +40,8 @@ func PrintGenric() {
 		"second": 87.1,
 	}
 	fmt.Printf("Generic Sums: %v and %v\n",
+		// can write with type
 		SumIntsorFloats[string, int64](ints),
+		// or auto inference
 		SumIntsorFloats(floats))
 }

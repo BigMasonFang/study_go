@@ -17,6 +17,7 @@ func (e *BadInputError) Error() string {
 
 func validateInput1(input string) error {
 	if input == "error" {
+		// In Go 1.13 or later, you can also use `%w` within `fmt.Errorf()` to wrap an error with additional context. This creates an error value that includes the original error as a wrapped error, along with additional context that you specify. This is useful for propagating errors and providing more informative error messages.
 		return fmt.Errorf("validateInput: %w", ErrBadInput)
 	}
 	return nil
@@ -44,5 +45,4 @@ func PrintErrorAs() {
 	if errors.As(err, &badInputError) {
 		fmt.Printf("bad input err occured : %s\n", badInputError)
 	}
-
 }
