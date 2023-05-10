@@ -2,8 +2,8 @@ package main
 
 import (
 	"fmt"
-	basic "study_go/basic"
-	_ "study_go/design_patterns/creational_patterns"
+	// basic "study_go/basic"
+	patterns "study_go/design_patterns"
 )
 
 func init() {
@@ -14,5 +14,8 @@ func init() {
 
 func main() {
 	// basic
-	basic.PrintBasic()
+	// basic.PrintBasic()
+
+	// patterns
+	patterns.PrintDesignPatterns()
 }
