@@ -2,29 +2,32 @@ package main
 
 import (
 	// inner import
-	// t "github.com/BigMasonFang/study_go/type"
-	// v "github.com/BigMasonFang/study_go/variables"
-	// s "github.com/BigMasonFang/study_go/string_rune"
-	// f "github.com/BigMasonFang/study_go/funcs"
-	// o "github.com/BigMasonFang/study_go/operator"
-	// logic "github.com/BigMasonFang/study_go/if_else_switch"
-	// loop "github.com/BigMasonFang/study_go/for_loop"
-	// innerInit "github.com/BigMasonFang/study_go/init"
-	// method "github.com/BigMasonFang/study_go/method"
-	// _struct "github.com/BigMasonFang/study_go/struct"
-	// array "github.com/BigMasonFang/study_go/array"
-	// s "github.com/BigMasonFang/study_go/slice"
-	// m "github.com/BigMasonFang/study_go/map"
-	// i "github.com/BigMasonFang/study_go/interface"
-	// e "github.com/BigMasonFang/study_go/error"
-	// g "github.com/BigMasonFang/study_go/generics"
-	// routine "github.com/BigMasonFang/study_go/goroutine"
-	r "github.com/BigMasonFang/study_go/reflection"
+	// t "study_go/basic/type"
+	// v "study_go/basic/variables"
+	// s "study_go/basic/string_rune"
+	// f "study_go/basic/funcs"
+	// o "study_go/basic/operator"
+	// logic "study_go/basic/if_else_switch"
+	// loop "study_go/basic/for_loop"
+	// innerInit "study_go/basic/init"
+	// method "study_go/basic/method"
+	// _struct "study_go/basic/struct"
+	// array "study_go/basic/array"
+	// s "study_go/basic/slice"
+	// m "study_go/basic/map"
+	// i "study_go/basic/interface"
+	// e "study_go/basic/error"
+	// g "study_go/basic/generics"
+	// routine "study_go/basic/goroutine"
+	// r "study_go/basic/reflection"
 
 	"fmt"
 
 	// web import
 	arraylist "github.com/emirpasic/gods/lists/arraylist" // alias + import
+
+	// needed but not in main
+	_ "github.com/emirpasic/gods/utils"
 )
 
 func init() {
@@ -53,6 +56,7 @@ func main() {
 
 	// funcs
 	// f.PrintResult()
+	// f.PrintVariadicFunc()
 
 	// operators
 	// o.PrintOperator()
@@ -103,5 +107,5 @@ func main() {
 	// g.PrintGenric()
 
 	// reflect
-	r.PrintReflect()
+	// r.PrintReflect()
 }

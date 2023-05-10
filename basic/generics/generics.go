@@ -22,7 +22,7 @@ func SumFloats(m map[string]float64) float64 {
 	return s
 }
 
-func SumIntsorFloats[K comparable, V int64 | float64](m map[K]V) V {
+func SumIntsorFloats[K comparable, V Number](m map[K]V) V {
 	var s V
 	for _, v := range m {
 		s += v
@@ -32,14 +32,14 @@ func SumIntsorFloats[K comparable, V int64 | float64](m map[K]V) V {
 
 func PrintGenric() {
 	ints := map[string]int64{
-		"first": 22,
+		"first":  22,
 		"second": 44,
 	}
 	floats := map[string]float64{
-		"first": 22.3,
+		"first":  22.3,
 		"second": 87.1,
 	}
-	fmt.Printf("Generic Sums: %v and %v\n", 
-	SumIntsorFloats[string, int64](ints), 
-	SumIntsorFloats(floats))
+	fmt.Printf("Generic Sums: %v and %v\n",
+		SumIntsorFloats[string, int64](ints),
+		SumIntsorFloats(floats))
 }
