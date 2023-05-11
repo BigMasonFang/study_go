@@ -7,7 +7,8 @@ import (
 
 func init() {
 	designPatterns := []string{
-		"singleton", "simple_factory", "abstract_factory",
+		"singleton", "simple_factory", "abstract_factory", "builder",
+		"configuration", "prototype",
 	}
 	fmt.Println("u can select from these patterns")
 	for i, v := range designPatterns {
@@ -26,5 +27,11 @@ func PrintDesignPatterns() {
 		creational_patterns.PrintSimpleFactory()
 	case "2", "abstract_factory":
 		creational_patterns.PrintAbstractFactory()
+	case "3", "builder":
+		creational_patterns.PrintBuilder()
+	case "4", "configuration":
+		PrintComplexConfig()
+	case "5", "prototype":
+		PrintPrototype()
 	}
 }
