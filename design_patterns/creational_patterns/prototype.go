@@ -1,4 +1,4 @@
-package design_patterns
+package creational_patterns
 
 import "fmt"
 
