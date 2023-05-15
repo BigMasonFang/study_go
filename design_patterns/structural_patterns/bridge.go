@@ -11,11 +11,11 @@ type Shape interface {
 	Draw()
 }
 
-// Implementation
 type Color interface {
 	ApplyColor() string
 }
 
+// Implementation
 type RedColor struct{}
 
 func (r *RedColor) ApplyColor() string {

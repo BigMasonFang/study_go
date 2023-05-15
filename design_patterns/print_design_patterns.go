@@ -10,6 +10,7 @@ func init() {
 	designPatterns := []string{
 		"singleton", "simple_factory", "abstract_factory", "builder",
 		"configuration", "prototype", "adapter", "bridge", "object_tree",
+		"decorator",
 	}
 	fmt.Println("u can select from these patterns")
 	for i, v := range designPatterns {
@@ -41,5 +42,8 @@ func PrintDesignPatterns() {
 		structural_patterns.PrintBridgeExec()
 	case "8", "object_tree":
 		structural_patterns.PrintObjectTree()
+	case "9", "decorator":
+		structural_patterns.PrintDecorator()
+		structural_patterns.PrintDecoratorExercise()
 	}
 }
