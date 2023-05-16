@@ -46,6 +46,7 @@ func PrintDesignPatterns() {
 		structural_patterns.PrintDecorator()
 		structural_patterns.PrintDecoratorExercise()
 	case "10", "pipeline":
-		structural_patterns.PrintPipeline()
+		// structural_patterns.PrintPipeline()
+		structural_patterns.PrintFanInIntersect()
 	}
 }
