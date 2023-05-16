@@ -10,7 +10,7 @@ func init() {
 	designPatterns := []string{
 		"singleton", "simple_factory", "abstract_factory", "builder",
 		"configuration", "prototype", "adapter", "bridge", "object_tree",
-		"decorator", "pipeline",
+		"decorator", "pipeline", "plugin",
 	}
 	fmt.Println("u can select from these patterns")
 	for i, v := range designPatterns {
@@ -46,7 +46,9 @@ func PrintDesignPatterns() {
 		structural_patterns.PrintDecorator()
 		structural_patterns.PrintDecoratorExercise()
 	case "10", "pipeline":
-		// structural_patterns.PrintPipeline()
+		structural_patterns.PrintPipeline()
 		structural_patterns.PrintFanInIntersect()
+	case "11", "plugin":
+		structural_patterns.PrintPlugin()
 	}
 }
