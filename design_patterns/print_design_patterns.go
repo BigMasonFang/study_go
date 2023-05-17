@@ -2,6 +2,7 @@ package design_patterns
 
 import (
 	"fmt"
+	"study_go/design_patterns/behavioral_patterns"
 	"study_go/design_patterns/creational_patterns"
 	"study_go/design_patterns/structural_patterns"
 )
@@ -10,7 +11,8 @@ func init() {
 	designPatterns := []string{
 		"singleton", "simple_factory", "abstract_factory", "builder",
 		"configuration", "prototype", "adapter", "bridge", "object_tree",
-		"decorator", "pipeline", "plugin",
+		"decorator", "pipeline", "plugin", "fluent_interface", "chain_of_responsibility",
+		"observer", "cache_proxy", "strategy", "templates",
 	}
 	fmt.Println("u can select from these patterns")
 	for i, v := range designPatterns {
@@ -50,5 +52,17 @@ func PrintDesignPatterns() {
 		structural_patterns.PrintFanInIntersect()
 	case "11", "plugin":
 		structural_patterns.PrintPlugin()
+	case "12", "fluent_interface":
+		behavioral_patterns.PrintFluentInterface()
+	case "13", "chain_of_responsibility":
+		behavioral_patterns.PrintChainOfResponsibility()
+	case "14", "observer":
+		behavioral_patterns.PrintObserver()
+	case "15", "cache_proxy":
+		behavioral_patterns.PrintCacheProxy()
+	case "16", "strategy":
+		behavioral_patterns.PrintStrategy()
+	case "17", "templates":
+		behavioral_patterns.PrintTemplates()
 	}
 }
