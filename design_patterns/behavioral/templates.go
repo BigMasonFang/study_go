@@ -1,4 +1,4 @@
-package behavioral_patterns
+package behavioral
 
 import "fmt"
 

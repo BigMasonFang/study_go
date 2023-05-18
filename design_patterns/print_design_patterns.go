@@ -2,9 +2,9 @@ package design_patterns
 
 import (
 	"fmt"
-	"study_go/design_patterns/behavioral_patterns"
-	"study_go/design_patterns/creational_patterns"
-	"study_go/design_patterns/structural_patterns"
+	"study_go/design_patterns/behavioral"
+	"study_go/design_patterns/creational"
+	"study_go/design_patterns/structural"
 )
 
 func init() {
@@ -26,43 +26,43 @@ func PrintDesignPatterns() {
 
 	switch input {
 	case "0", "singleton":
-		creational_patterns.PrintSingleton()
+		creational.PrintSingleton()
 	case "1", "simple_factory":
-		creational_patterns.PrintSimpleFactory()
+		creational.PrintSimpleFactory()
 	case "2", "abstract_factory":
-		creational_patterns.PrintAbstractFactory()
+		creational.PrintAbstractFactory()
 	case "3", "builder":
-		creational_patterns.PrintBuilder()
+		creational.PrintBuilder()
 	case "4", "configuration":
-		creational_patterns.PrintComplexConfig()
+		creational.PrintComplexConfig()
 	case "5", "prototype":
-		creational_patterns.PrintPrototype()
+		creational.PrintPrototype()
 	case "6", "adapter":
-		structural_patterns.PrintAdapter()
+		structural.PrintAdapter()
 	case "7", "bridge":
-		structural_patterns.PrintBridge()
-		structural_patterns.PrintBridgeExec()
+		structural.PrintBridge()
+		structural.PrintBridgeExec()
 	case "8", "object_tree":
-		structural_patterns.PrintObjectTree()
+		structural.PrintObjectTree()
 	case "9", "decorator":
-		structural_patterns.PrintDecorator()
-		structural_patterns.PrintDecoratorExercise()
+		structural.PrintDecorator()
+		structural.PrintDecoratorExercise()
 	case "10", "pipeline":
-		structural_patterns.PrintPipeline()
-		structural_patterns.PrintFanInIntersect()
+		structural.PrintPipeline()
+		structural.PrintFanInIntersect()
 	case "11", "plugin":
-		structural_patterns.PrintPlugin()
+		structural.PrintPlugin()
 	case "12", "fluent_interface":
-		behavioral_patterns.PrintFluentInterface()
+		behavioral.PrintFluentInterface()
 	case "13", "chain_of_responsibility":
-		behavioral_patterns.PrintChainOfResponsibility()
+		behavioral.PrintChainOfResponsibility()
 	case "14", "observer":
-		behavioral_patterns.PrintObserver()
+		behavioral.PrintObserver()
 	case "15", "cache_proxy":
-		behavioral_patterns.PrintCacheProxy()
+		behavioral.PrintCacheProxy()
 	case "16", "strategy":
-		behavioral_patterns.PrintStrategy()
+		behavioral.PrintStrategy()
 	case "17", "templates":
-		behavioral_patterns.PrintTemplates()
+		behavioral.PrintTemplates()
 	}
 }

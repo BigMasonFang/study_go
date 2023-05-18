@@ -16,7 +16,7 @@
 // Channel Closing Principle
 // don't close a channel from the receiver side and don't close a channel if the channel has multiple concurrent senders.
 
-package structural_patterns
+package structural
 
 import (
 	"fmt"

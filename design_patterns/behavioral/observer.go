@@ -1,8 +1,9 @@
 // 1. decoupling, observer can change independently
 // 2. broadcast
-// 3. the fundation of event drive design
+// 3. the fundation of event drive design, decouple event
+// and event handling, bring flexibility and modulization
 
-package behavioral_patterns
+package behavioral
 
 import "fmt"
 

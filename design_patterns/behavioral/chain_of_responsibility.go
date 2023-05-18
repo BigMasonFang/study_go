@@ -3,7 +3,7 @@
 // 3. easy to expand
 // 4. if too long may be too complex
 
-package behavioral_patterns
+package behavioral
 
 import "fmt"
 

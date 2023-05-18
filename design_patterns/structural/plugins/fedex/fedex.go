@@ -1,6 +1,8 @@
 // file: fedex/fedex.go
 package main
 
+// this package must be main because it is build independently
+
 type shipper struct{}
 
 func (s shipper) Name() string {

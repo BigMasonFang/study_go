@@ -1,4 +1,5 @@
-package behavioral_patterns
+// readable, concise, easy to use(instructional), flexiable(without rereference)
+package behavioral
 
 import "fmt"
 

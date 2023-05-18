@@ -1,4 +1,4 @@
-package structural_patterns
+package structural
 
 import "fmt"
 

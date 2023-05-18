@@ -2,7 +2,7 @@
 // so that both can be developed independently. In other words,
 // it decouples an abstraction from its implementation details
 // so that the two can vary independently.
-package structural_patterns
+package structural
 
 import "fmt"
 

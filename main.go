@@ -2,8 +2,12 @@ package main
 
 import (
 	"fmt"
+	// "sync"
+	// "net/http"
 	// basic "study_go/basic"
-	patterns "study_go/design_patterns"
+	// patterns "study_go/design_patterns"
+	// tips "study_go/tips"
+	intermediate "study_go/intermediate"
 )
 
 func init() {
@@ -17,5 +21,12 @@ func main() {
 	// basic.PrintBasic()
 
 	// patterns
-	patterns.PrintDesignPatterns()
+	// patterns.PrintDesignPatterns()
+
+	// http.ListenAndServe(":8888", nil)
+
+	// tips.PrintTips()
+
+	intermediate.PrintTopics()
+
 }

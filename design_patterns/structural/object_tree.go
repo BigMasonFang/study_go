@@ -2,7 +2,7 @@
 // hierarchical data structures such as trees.
 // In this pattern, each node in the tree is an object with a pointer to its parent node
 // and an array or a slice of pointers to its child nodes.
-package structural_patterns
+package structural
 
 import "fmt"
 

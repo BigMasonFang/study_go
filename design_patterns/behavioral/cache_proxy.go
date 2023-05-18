@@ -1,4 +1,7 @@
-package behavioral_patterns
+// 1. improve performance
+// 2. reduce resource eg: db query, network bandwith
+// 3. protect proxy object (filter invalid request)
+package behavioral
 
 import (
 	"fmt"

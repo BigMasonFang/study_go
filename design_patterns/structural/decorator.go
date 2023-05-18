@@ -3,7 +3,7 @@
 // 2. easy to maintain because different it is componentlized
 // 3. easy to reuse code because different it is componentlized
 
-package structural_patterns
+package structural
 
 import "fmt"
 

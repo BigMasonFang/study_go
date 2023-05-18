@@ -1,4 +1,4 @@
-package creational_patterns
+package creational
 
 import "fmt"
 

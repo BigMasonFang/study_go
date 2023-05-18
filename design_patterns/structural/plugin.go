@@ -1,4 +1,4 @@
-package structural_patterns
+package structural
 
 import (
 	"fmt"
@@ -23,7 +23,7 @@ func PrintPlugin() {
 		// 1. Search the plugins directory for a file with the same name as the pluginName
 		// that was passed in as an argument and attempt to load the shared object file.
 		// wd, _ := os.Getwd()
-		// pluginD := wd + "/design_patterns/structural_patterns/plugins/"
+		// pluginD := wd + "/design_patterns/structural/plugins/"
 		plug, err := plugin.Open(fmt.Sprintf("plugins/%s.so", pluginName))
 		if err != nil {
 			log.Fatal(err)
@@ -55,7 +55,7 @@ func PrintPlugin() {
 			shipper.Currency())
 		fmt.Println(rate1Day, rate2Days, rate7Days)
 		// first build the plugin .so like~
-		// go build -buildmode=plugin -o ./plugins/fedex.so ./design_patterns/structural_patterns/plugins/fedex/fedex.go
+		// go build -buildmode=plugin -o ./plugins/fedex.so ./design_patterns/structural/plugins/fedex/fedex.go
 		// go run main.go fedex 5.1
 	}
 }

@@ -38,6 +38,7 @@ func (p *Player) Reset() {
 
 func (p *Player) ValidateHealth() error {
 	if p.health < 0 || p.health > 100 {
+		// In Go 1.13 or later, you can also use `%w` within `fmt.Errorf()` to wrap an error with additional context. This creates an error value that includes the original error as a wrapped error, along with additional context that you specify. This is useful for propagating errors and providing more informative error messages.
 		return fmt.Errorf("invalid health %w", &InvalidHealthError{p.health})
 	}
 	return nil

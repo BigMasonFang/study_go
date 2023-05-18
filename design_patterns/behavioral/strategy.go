@@ -5,7 +5,7 @@
 // used in multiple scenarios, witout implementation in client
 // 4. enhance maintainability by making single duty strategies
 
-package behavioral_patterns
+package behavioral
 
 import "fmt"
 

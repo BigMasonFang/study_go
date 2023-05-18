@@ -8,7 +8,7 @@ and if not, it creates one, stores it in the class, and returns it.
 
 threads pool, db connection pool, global log, config
 */
-package creational_patterns
+package creational
 
 import (
 	"fmt"

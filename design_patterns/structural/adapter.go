@@ -2,7 +2,7 @@
 // The Adapter pattern acts as a bridge between two interfaces to help them work together.
 // This pattern allows existing code to work with new code by ensuring that
 // the interfaces are kept separate while providing a way for them to communicate with each other.
-package structural_patterns
+package structural
 
 import "fmt"
 
@@ -42,5 +42,4 @@ func PrintAdapter() {
 	target := &Adapter{Adaptee: adaptee}
 	output := Client(target)
 	fmt.Println(output)
-
 }
