@@ -3,6 +3,7 @@ package intermediate
 import (
 	"fmt"
 	control "study_go/intermediate/control_statement"
+	f "study_go/intermediate/funcs"
 	_map "study_go/intermediate/map"
 	Order "study_go/intermediate/order"
 	"study_go/intermediate/scope"
@@ -18,6 +19,7 @@ func init() {
 		"evaluation_order",
 		"scope",
 		"control",
+		"funcs",
 	}
 	fmt.Println("u can select from these intermediate topics")
 	for i, v := range tips {
@@ -45,5 +47,8 @@ func PrintTopics() {
 		scope.PrintScope()
 	case "5", "control":
 		control.PrintRange()
+	case "6", "funcs":
+		// f.PrintInit()
+		f.PrintInitDB()
 	}
 }

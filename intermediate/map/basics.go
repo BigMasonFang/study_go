@@ -62,6 +62,7 @@ func PrintMap() {
 		}
 	}()
 	time.Sleep(2 * time.Second)
+	// fatal error: concurrent map read and map write
 
 	// pointer of value
 	// p := &d["key 1"]
