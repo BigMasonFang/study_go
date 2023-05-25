@@ -49,6 +49,12 @@ func PrintTopics() {
 		control.PrintRange()
 	case "6", "funcs":
 		// f.PrintInit()
-		f.PrintInitDB()
+		// f.PrintInitDB()
+		// f.RunHTTPServer()
+		// f.PrintCasting()
+		// f.PrintCurried()
+		// f.PrintFunctor()
+		// f.PrintRecursionSimple()
+		f.PrintRecursionCPS()
 	}
 }
